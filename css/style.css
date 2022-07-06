@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.top-banner h1 {
+  font-size: 50px;
+  color: #ffffff;
+}
+.top-banner p {
+  color: #ffffff;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-flow: wrap column;
+  align-items: center;
+  justify-content: center;
+}
+.top-banner {
+  background-image: url("images/donation1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.name-highlight {
+  text-decoration: none;
+  color: white;
+  background-color: #ff5959;
+  padding: 20px 30px;
+  border-radius: 5px;
+}
+
+section {
+  height: 700px;
+}
+.second-banner h1 {
+  font-size: 50px;
+  color: black;
+}
+.second-banner p {
+  color: #707070;
+}
+.money-flex {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: center;
+  align-items: center;
+}
+.money {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+#donate {
+  border: 2px solid red;
+  color: #ff5959;
+  background-color: #ffeeee;
+}
+.input-text {
+  border: none;
+  border-bottom: 2px solid silver;
+  width: 40%;
+  text-align: center;
+}
